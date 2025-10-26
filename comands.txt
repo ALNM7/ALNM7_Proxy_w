@@ -1,0 +1,4 @@
+python crawlerProxy.py --worker-id 0 --workers 4 --dataset-start 5 --dataset-end 6
+python crawlerProxy.py --worker-id 1 --workers 4 --dataset-start 5 --dataset-end 6
+python crawlerProxy.py --worker-id 2 --workers 4 --dataset-start 77 --dataset-end 82
+python crawlerProxy.py --worker-id 3 --workers 4 --dataset-start 77 --dataset-end 82
