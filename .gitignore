@@ -12,6 +12,8 @@ config.yaml
 data/raw/*.csv
 data/processed/*.csv
 profiles/
-*.csv
+
+# except the illustrative example shipped with the repo
+!data/raw/Kickstarter001.csv
 
 .DS_Store
