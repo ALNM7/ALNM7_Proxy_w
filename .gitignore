@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+environment_name/
+
+# real proxy list and config, never commit these
+proxies.json
+config.yaml
+
+# scraped data and browser state, never commit these
+data/raw/*.csv
+data/processed/*.csv
+profiles/
+
+# except the illustrative example shipped with the repo
+!data/raw/Kickstarter001.csv
+
+.DS_Store

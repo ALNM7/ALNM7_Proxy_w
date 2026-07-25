@@ -1,0 +1,27 @@
+dataset_start: 1
+dataset_end: 82
+workers: 4
+
+proxy_auth_mode: ip  # "ip" for IP-whitelisted proxies, "userpass" for username/password auth
+proxy_user: null
+proxy_pass: null
+proxy_rotate_seconds: 180
+proxies_path: proxies.json
+
+batch_size: 15
+rest_seconds: 70
+
+chrome_version_main: 140
+headless: false
+
+delete_prev_profile_on_replace: true
+purge_keep_last: 3
+purge_max_age_hours: 8
+purge_max_total_gb: 20.0
+
+max_driver_recycle_per_row: 3
+max_nav_rotations_per_url: 2
+
+input_dir: ./data/raw
+output_dir: ./data/processed
+profile_base_dir: ./profiles
