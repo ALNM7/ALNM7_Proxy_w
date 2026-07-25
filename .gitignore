@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+environment_name/
+
+# real proxy list and config, never commit these
+proxies.json
+config.yaml
+
+# scraped data and browser state, never commit these
+data/raw/*.csv
+data/processed/*.csv
+profiles/
+*.csv
+
+.DS_Store
